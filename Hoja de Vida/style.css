@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(228, 228, 228);
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.637);
+    height:980px;
+    margin:125px 225px;
+    border-radius:40px;
+    border-style:solid;
+    border-color: rgb(61, 0, 130);
+}
+article{
+    background-color: rgb(255, 254, 249);
+    margin:70px 80px 10px 80px;
+    border-radius:40px;
+    text-align: center;
+    
+}
+img {
+    width:300px;
+    height: 300px;
+    transition: all 0.5s;
+}
+img:hover{
+    transform: scale(0.9);
+}
+
+h1{
+    font-size: 28px;
+}
+
+h1:hover{
+    color: rgb(22, 255, 1);
+}
+
+h2{
+    font-size: 20px;
+}
+
+h2:hover{
+    color: orange;
+}
+
+.icon{
+    display: flex;
+}
+
+.fab{
+    border-radius: 50%;
+}
+
+.fab , .fas , .far {
+    font-size: 22px;
+}
+
+.far , .fas {
+    padding-right:10px ;
+}
+
+.fab:hover{
+   background-color:#1877f2;
+}
+
+span{
+    margin-bottom:20px;
+}
+
+.personal{
+    background-color: rgb(216, 255, 210);
+    margin:1px 80px;
+    border-radius:40px;
+    text-align: center;
+}
+
+.proyecto{
+    background-color: rgb(216, 255, 210);
+    margin:20px 80px;
+    border-radius:40px;
+    text-align: center;
+
+}
+
+.h-p{
+    background-color: rgba(255, 0, 64, 0.767);
+    border-radius:54px 54px 0px 0px;
+}
+
+.text{
+    font-size:18px;
+    padding:10px;
+}
+
+
+footer{
+    text-align:center;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 20px;
+    color:orange;
+}
+
+
